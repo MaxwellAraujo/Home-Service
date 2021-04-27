@@ -91,6 +91,23 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.cell {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#cell {
+    width: 200px;
+    height: 400px;
+    align-items: center;
+}
+
 /*.filme-principal {
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('capa-house.jpg');
