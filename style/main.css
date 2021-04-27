@@ -79,7 +79,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal-index {
     font-size:16px;
-    background: url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url("../img/capa-house.jpg");
     
     height: auto;
     background-size:cover;
@@ -90,22 +90,6 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
 }
-
-.filme-principal{
-    font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
-    
-    height: 1200px;
-    background-size:cover;
- 
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-bottom: 450px;
-}
-
 
 #index {
     height: 400px;
